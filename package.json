@@ -1,0 +1,29 @@
+{
+  "name": "demo_server",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon -q index.js ",
+    "seed": "node seed_data.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bson": "^4.6.1",
+    "cors": "^2.8.5",
+    "express": "^4.17.2",
+    "mongo": "^0.1.0",
+    "mongodb": "^4.3.1",
+    "nodemon": "^2.0.15",
+    "p-retry": "^5.0.0",
+    "prettier": "^2.5.1"
+  },
+  "prettier": {
+    "arrowParens": "always",
+    "printWidth": 120,
+    "singleQuote": true,
+    "trailingComma": "all"
+  }
+}
